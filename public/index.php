@@ -1,6 +1,10 @@
 <?php
 
 require_once "../vendor/autoload.php";
-echo 'isto esta funcionando';
+
+$route = new \App\Route;
+echo 'Isso esta funcionando';
+echo '<hr>';
+print_r($route->getUrl());
 
 ?>
